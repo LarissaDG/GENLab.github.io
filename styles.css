@@ -7,8 +7,13 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2 {
+h1 {
     color: #D88A6B;
+    text-align: center;
+}
+
+h2 {
+    color: ;
     text-align: center;
 }
 
@@ -80,12 +85,32 @@ h1, h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Form Section */
-.form-section {
+ /* Centralizar texto e imagem */
+.image-container {
+  text-align: center;
+  margin: 20px;
+}
+/* Estilo opcional para o texto */
+.image-caption {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+/* Vision Section */
+.vision-section {
     padding: 50px;
     background-color: #C4A484;
     text-align: center;
     color: #FAF8F5;
+}
+
+/* Fazemos Section */
+.fazemos {
+    padding: 50px;
+    background-color: #FFF7F0;
+    text-align: left;
+   
 }
 
 iframe {
